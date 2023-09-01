@@ -1,0 +1,140 @@
+/*
+
+    THIS IS THE CSS FILE
+    ANY EDITING OF THIS FILE WILL END UP IN YOUR GAME LOOKING VERY WEIRD
+    NONE OF THE SOLUTIONS INVOLVE EDITING THIS FILE
+    SO DON'T EDIT THIS FILE PLS
+
+*/
+
+* {
+    font-family: Courier New, Courier, monospace;
+}
+
+/* General stuff */
+
+.bold {
+    font-weight: bold;
+}
+
+button {
+    border: 1px solid #BBBBBB;
+    background-color: #F1F1F1;
+    outline: none;
+    cursor: pointer;
+    transition-duration: 200ms;
+}
+
+button:hover {
+    border: 1px solid #888888;
+    background-color: #F9F9F9;
+}
+
+/* Intro stuff */
+
+.intro {
+    display: none;
+}
+
+#intro {
+    text-align: center;
+}
+
+#main_title {
+    position: relative;
+    top: 140px;
+
+    font-size: 30px;
+}
+
+#subtitle {
+    position: relative;
+    top: 145px;
+}
+
+#play_button {
+    position: relative;
+    top: 195px;
+
+    height: 80px;
+    width: 200px;
+
+    font-size: 20px;
+}
+
+#info_button {
+    position: relative;
+    top: 220px;
+
+    height: 80px;
+    width: 200px;
+
+    font-size: 20px;
+}
+
+#read_msg {
+    position: absolute;
+    top: 5px;
+    left: 235px;
+
+    width: 200px;
+
+    pointer-events: none;
+    font-size: 15px;
+}
+
+#credits {
+    position: relative;
+    top: 255px;
+}
+
+/* Info stuff */
+
+#info {
+    display: none;
+
+    text-align: center;
+}
+
+#info_title {
+    position: relative;
+    top: 20px;
+
+    font-size: 30px;
+}
+
+#info_back {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+
+    height: 50px;
+    width: 80px;
+}
+
+#desc {
+    position: relative;
+    top: 40px;
+
+    margin-left: 140px;
+    margin-right: 140px;
+
+    line-height: 24px;
+}
+
+/* Ingame "meta"data stuff */
+
+#ingame_data {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+
+    display: none;
+
+    font-size: 24px;
+    line-height: 32px;
+}
+
+#game_level {
+    display: inline;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+
+<!--
+
+        THIS IS THE MAIN HTML FILE
+        ANY EDITING OF ANY PARTS OF THIS FILE UNDRELATED TO THE CHALLENGES OR THE CSS FILE WILL END UP MAKING YOUR GAME LOOK VERY WEIRD
+        SO DON'T EDIT THE PARTS UNRELATED TO THE CHALLENGES PLS
+
+        YOU CAN EDIT THE AREAS WHERE THE HTML IS FOR THE CHALLENGES
+        IT WILL ALWAYS BE IN THE BODY IN A DIV WITH ID "game"
+        ANY EDITING IN THAT SPECIFIC DIV IS ALLOWED, OTHERWISE EDITING MIGHT BREAK YOUR GAME
+
+    -->
+
+<head>
+
+  <title>Hacker Game</title>
+
+  <link href="style.css" rel="stylesheet" type="text/css">
+  </link>
+
+  <meta name="robots" content="noindex">
+
+</head>
+
+<script src="config.js"></script>
+<script src="main.js"></script>
+
+<body>
+
+  <div id="intro">
+
+    <div class="intro bold" id="main_title"></div>
+    <div class="intro" id="subtitle">a coding game</div>
+    <button class="intro" id="play_button">PLAY</button>
+    <br>
+
+    <button class="intro" id="info_button">
+
+      INFORMATION
+      <div id="read_msg">&lt;- read this and the console before playing</div>
+
+    </button>
+
+    <br>
+    <div class="intro" id="credits">
+
+      forked by betches
+
+    </div>
+
+  </div>
+
+  <div id="info">
+
+    <div class="bold" id="info_title">Hacker Game</div>
+
+    <button id="info_back">BACK</button>
+
+    <div id="desc">
+
+      hacker, hacker is a coding game that involves "hacking" or editing the source code to solve a set of challenges.
+      in most browsers, inspecting element allows you to view and tamper with the source code of a page, but these
+      effects will only last until you reload the page. however, depending on how the website was designed, you may be
+      able to do some pretty cheaty stuff before your changes get reset. personally, i think this is very cool. hacker,
+      hacker is game specifically about tampering with the source code.
+
+      <br><br>
+
+      a few notes:
+
+      <br><br>
+
+      this game DOES require some basic understanding of javascript and html as it is written in javascript, and in
+      order to solve the challenges you must edit javascript code.
+
+      <br><br>
+
+      to view and edit source code, simply right click and inspect element. here, you can see everything about the web
+      page that is running.
+
+      <br><br>
+
+      only edit the javascript / html related to the level or challenge you are on (see the console). editing anything
+      else might break your game. also, don't do something like make yourself win automatically. i know it is a hacking
+      game, and you are supposed to tamper with code, but please play the game as it was intented to be played because
+      it is just more fun that way. :)
+
+      <br><br>
+
+      DISCLAIMER: i am not responsible for anything you may decide to "hack" on other webpages after seeing this game
+
+      <br><br>
+
+      <div class="bold">GOOD LUCK, AND HAVE FUN!</div>
+
+      <br>
+
+      - betches
+
+    </div>
+
+  </div>
+
+  <div id="ingame_data">
+
+    <div class="bold" id="ingame_title">Hacker Game</div>
+
+    <div id="level_word">
+
+      LEVEL
+      <div id="game_level"></div>
+
+    </div>
+
+  </div>
+
+  <div id="game"></div>
+
+</body>
+
+</html>
